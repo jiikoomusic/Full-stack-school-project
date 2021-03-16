@@ -1,0 +1,466 @@
+@charset "UTF-8";
+
+
+/* Taustan m‰‰ritykset */
+body  {
+  background-image: url("kuvat/taustakuva.jpg");
+  background-color: #000000;
+  background-size: auto;
+}
+
+
+
+	/* PHP-tiedostojen divin m‰‰ritys */
+	#kehys {
+	width: 500px;
+	height: 500px;
+	border: 7px solid #d54b4c;
+	margin: auto;
+	background-color: darkgray;
+	}
+
+		/* PHP-tiedostojen divin m‰‰ritys */
+		#register {
+		width: 500px;
+		height: 600px;
+		border: 7px solid #d54b4c;
+		margin: auto;
+		background-color: darkgray;
+		}
+
+			/* PHP-tiedostojen divin m‰‰ritys */
+			#memberprofile {
+			width: auto;
+			height: auto;
+			border: 7px solid #d54b4c;
+			margin: auto;
+			background-color: darkgray;
+			}
+
+			/* Member Index-tiedoston divin m‰‰ritys */
+			#kehys2 {
+			width: 1400px;
+			height: 850px;
+			border: 7px solid #d54b4c;
+			margin: auto;
+			background-color: darkgray;
+			}
+
+				/* Admin Index-tiedoston divin m‰‰ritys */
+				#kehys3 {
+					width: auto;
+					height: auto;
+					border: 7px solid #d54b4c;
+					margin: auto;
+					background-color: darkgray;
+					}
+
+					#kehys4 {
+						width: 1000px;
+						height: auto;
+						border: 7px solid #d54b4c;
+						margin: auto;
+						background-color: darkgray;
+						}
+
+						#kehys44 {
+							width: 1500px;
+							height: auto;
+							border: 7px solid #d54b4c;
+							margin: auto;
+							background-color: darkgray;
+							}
+		
+		
+							/* Order.php divin m‰‰ritys */
+							#order {
+							width: 1300px;
+							height: 1450px;
+							border: 7px solid #d54b4c;
+							margin: auto;
+							background-color: darkgray;
+							}
+
+
+								/* tuotehallinta.php divin m‰‰ritys */
+								#tuotehallinta {
+									width: 1440px;
+									height: auto;
+									border: 7px solid #d54b4c;
+									margin: auto;
+									background-color: darkgray;
+									}
+
+									/* tuotehallinta.php divin m‰‰ritys */
+									#tuotehallinta2 {
+									width: 1400px;
+									height: 300px;
+									border: 7px solid #d54b4c;
+									margin: auto;
+									background-color: darkgray;
+									}
+
+									/* tuotehallinta.php divin m‰‰ritys */
+								#tuotehallinta3 {
+									width: 1200px;
+									height: 150px;
+									margin: auto;
+									background-color: darkgray;
+									}
+
+
+									/* delete-product.php divin m‰‰ritys */
+								#tuotehallinta4 {
+									width: 1440px;
+									height: 300px;
+									border: 7px solid #d54b4c;
+									margin: auto;
+									background-color: darkgray;
+									}
+										/* delete-order.php divin m‰‰ritys */
+										#tilauspoistettu {
+										width: 1400px;
+										height: 300px;
+										border: 7px solid #d54b4c;
+										margin: auto;
+										background-color: darkgray;
+										}
+
+
+											/* Fonttien m‰‰ritykset */
+
+											h1 {
+												font-family: Arial, serif;    
+											}
+
+											h2 {
+												font-family: Arial, serif;  
+											}
+
+											h3 {
+												font-family: Arial, serif;  
+											}
+
+											h5 {
+												font-family: Arial, serif;  
+											}
+
+											h4 {
+												font-family: Arial, serif;  
+											}
+
+											th {
+											font-weight: bold;
+											text-align: left;
+											}
+
+
+
+												/* Dropdown-menun m‰‰ritykset */						
+												.dropbtn {
+												background-color: #333;
+												color: white;
+												padding: 16px;
+												font-size: 16px;
+												border: none;
+												cursor: pointer;
+												}
+
+												.dropbtn:hover, .dropbtn:focus {
+												background-color: #d54b4c;
+												}
+
+												.dropdown {
+												position: relative;
+												display: inline-block;
+												}
+
+												.dropdown-content {
+												display: none;
+												position: absolute;
+												background-color: #ffffff;
+												min-width: 160px;
+												overflow: auto;
+												box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+												z-index: 1;
+												}
+
+												.dropdown-content a {
+												color: black;
+												padding: 12px 16px;
+												text-decoration: none;
+												display: block;
+												}
+
+												.dropdown a:hover {background-color: #d54b4c;}
+
+												.show {display: block;}
+									
+													/* Kuvagallerian m‰‰ritykset */
+													* {
+													box-sizing: border-box;
+													}
+
+
+														/* Navigointivalikon m‰‰ritykset */
+														ul {
+														list-style-type: none;
+														margin-top: 200px;
+														margin-left: -8px;
+														width: 1920px;
+														position: absolute;
+														padding: 0;
+														overflow: hidden;
+														background-color: #333;
+														}
+
+														li {
+														float: left;
+														}
+
+														li a {
+														display: block;
+														color: white;
+														text-align: center;
+														padding: 14px 16px;
+														text-decoration: none;
+														}
+
+														li a:hover {
+														background-color: #d54b4c;
+														}
+
+
+
+															/* Etusivun m‰‰ritykset */
+															#pohjadivetusivu {
+															position: absolute;
+															background-color: darkgray;
+															opacity: 0.9;
+															width: 500px;
+															text-align: center;
+															height: 1350px;
+															width: 1400px;
+															margin-top: 220px;
+															margin-left: 220px;
+															border: 7px solid #d54b4c;
+															border-radius: 25px;
+															overflow: hidden;
+																				}
+																				
+																				
+																				
+																/* Taustakuvan m‰‰ritykset */			
+																#taustakuva {
+																position: absolute;
+																background-color: darkgray;
+																width: 500px;
+																text-align: center;
+																height: 450px;
+																width: 1400px;
+																margin-top: 500px;
+																margin-top: 300px;
+																margin-left: 250px;
+																overflow: hidden;
+																					}
+																				
+																				
+																	/* Valmennuspalvelut-sivun m‰‰ritykset */			
+																	#pohjadivvalmennuspalvelut {
+																	position: absolute;
+																	background-color: darkgray;
+																	opacity: 0.9;
+																	width: 500px;
+																	text-align: center;
+																	height: 940px;
+																	width: 1400px;
+																	margin-top: 220px;
+																	margin-left: 220px;
+																	border: 7px solid #d54b4c;
+																	border-radius: 25px;
+																	overflow: hidden;
+																						}
+																				
+																				
+																		/* Ravintopalvelut-sivun m‰‰ritykset */				
+																		#pohjadivravintopalvelut {
+																		position: absolute;
+																		background-color: darkgray;
+																		opacity: 0.9;
+																		width: 500px;
+																		text-align: center;
+																		height: 750px;
+																		width: 1400px;
+																		margin-top: 220px;
+																		margin-left: 220px;
+																		border: 7px solid #d54b4c;
+																		border-radius: 25px;
+																		overflow: hidden;
+																							}
+
+
+																			/* Tuotteet-sivun m‰‰ritykset */				
+																			#pohjadivtuotteet {
+																				position: absolute;
+																				background-color: darkgray;
+																				opacity: 0.9;
+																				width: 500px;
+																				text-align: center;
+																				height: 1100px;
+																				width: 1400px;
+																				margin-top: 220px;
+																				margin-left: 220px;   
+																				border: 7px solid #d54b4c;
+																				border-radius: 25px;
+																				overflow: hidden;
+																									}
+
+
+																			/* T-paidat-sivun m‰‰ritykset */				
+																			#pohjadivtpaidat {
+																				position: absolute;
+																				background-color: darkgray;
+																				opacity: 0.9;
+																				width: 500px;
+																				text-align: center;
+																				height: 1250px;
+																				width: 1400px;
+																				margin-top: 220px;
+																				margin-left: 220px;
+																				border: 7px solid #d54b4c;
+																				border-radius: 25px;
+																				overflow: hidden;
+																									}
+																							
+																				
+																					/* Tietoa minusta-sivun m‰‰ritykset */				
+																					#pohjadivtietoaminusta {
+																					position: absolute;
+																					background-color: darkgray;
+																					opacity: 0.9;
+																					width: 500px;
+																					text-align: center;
+																					height: 750px;
+																					width: 1400px;
+																					margin-top: 220px;
+																					margin-left: 220px;
+																					border: 7px solid #d54b4c;
+																					border-radius: 25px;
+																					overflow: hidden;
+																										}
+																						
+																						
+																						/* Kuvagalleria-sivun m‰‰ritykset */			
+																						#pohjadivkuvagalleria {
+																						position: absolute;
+																						background-color: darkgray;
+																						opacity: 0.9;
+																						width: 500px;
+																						text-align: center;
+																						height: 1700px;
+																						width: 1400px;
+																						margin-top: 220px;
+																						margin-left: 220px;
+																						border: 7px solid #d54b4c;
+																						border-radius: 25px;
+																						overflow: hidden;
+																											}
+																											
+																											
+																											
+																							/* Kuvagallerian m‰‰ritykset */
+																							.column {
+																							float: left;
+																							width: 25%;
+																							padding: 10px;
+																							}
+
+																							/* Style the images inside the grid */
+																							.column img {
+																							opacity: 0.8; 
+																							cursor: pointer; 
+																							}
+
+																							.column img:hover {
+																							opacity: 1;
+																							}
+
+																							/* Clear floats after the columns */
+																							.row:after {
+																							content: "";
+																							display: table;
+																							clear: both;
+																							}
+
+																							/* The expanding image container */
+																							.container {
+																							position: relative;
+																							display: none;
+																							}
+
+																							/* Expanding image text */
+																							#imgtext {
+																							position: absolute;
+																							left: 15px;
+																							color: black;
+																							font-size: 25px;
+																							}
+
+																							/* Closable button inside the expanded image */
+																							.closebtn {
+																							position: absolute;
+																							top: 10px;
+																							right: 15px;
+																							color: white;
+																							font-size: 35px;
+																							cursor: pointer;
+																							}
+
+
+																								/* Treenivideoita-sivun m‰‰ritykset */			
+																								#pohjadivtreenivideot {
+																								position: absolute;
+																								background-color: darkgray;
+																								opacity: 0.9;
+																								width: 500px;
+																								text-align: center;
+																								height: 1700px;
+																								width: 1400px;
+																								margin-top: 220px;
+																								margin-left: 220px;
+																								border: 7px solid #d54b4c;
+																								border-radius: 25px;
+																								overflow: hidden;
+																													}							
+																							
+																							
+																									/* Treenivideot-sivun m‰‰ritykset */
+																									#video1 {
+																									position: absolute;
+																									width: 1500px;
+																									height: 340px;
+																									}
+																							
+																							
+																										#video2 {
+																										position: absolute;
+																										width: 1500px;
+																										height: 340px;
+																										}
+																										
+																											#video3 {
+																											position: absolute;
+																											width: 1500px;
+																											height: 340px;
+																											}
+																							
+																												#video4 {
+																												position: absolute;
+																												width: 1500px;
+																												height: 340px;
+																												}
+																						
+													
+
+
+															
