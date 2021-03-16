@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+
+
+<! Tässä tiedoston charset-määritykset, jotta ääkköset toimii>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<! Tähän päättyy kielimääritykset>
+
+
+	<! Tässä mobiiliskaalaus>
+	<meta name="viewport" content="width=device-width, initial-scale=0.315">
+	<! Tähän päättyy mobiiliskaalaus>
+
+		<link href="css/tyyli.css" rel="stylesheet" type="text/css">
+		<link href="css/media-query.css" rel="stylesheet" type="text/css">
+		<title>SK-Kuvagalleria</title>
+		</head>
+			
+	
+			<! Tästä alkaa navigointivalikko>
+			<ul style="position:relative;">
+			<li><a style="position:relative; left:450px;" href="index.html"><h4>Etusivu</h4></a></li>
+			<li><a style="position:relative; left:450px;" href="chat.html"><h4>Chat</h4></a></li>
+			<li><a style="position:relative; left:450px;" href="valmennuspalvelut.html"><h4>Valmennuspalvelut</h4></a></li>
+			<li><a style="position:relative; left:450px;" href="ravintopalvelut.html"><h4>Ravintopalvelut</h4></a></li>
+			<li><a style="position:relative; left:450px;" href="kuvagalleria.html"><h4>Kuvagalleria</h4></a></li>
+			<li><a style="position:relative; left:450px;" href="treenivideot.html"><h4>Treenivideoita</h4></a></li>
+			<li><a style="position:relative; left:450px;" href="tietoaminusta.html"><h4>Tietoa minusta</h4></a></li>
+			<li><a style="position:relative; left:450px;" href="yhteystiedot.html"><h4>Yhteystiedot</h4></a></li>
+			</ul>
+			<! Tähän päättyy navigointivalikko>		
+				
+				
+				
+					<! Tästä alkaa dropdown-menu>
+					<div style="position:relative; bottom:270px; left:30px;" class="dropdown">
+					<button onclick="myFunction()" class="dropbtn">Kirjaudu palveluun</button>
+					<div id="myDropdown" class="dropdown-content">
+					<a href="login-form.php">Kirjautuminen</a>
+					<a href="register-form.php">Rekisteröityminen</a>
+					<a href="newpasswordblank.php">Salasanan uusiminen</a>
+					</div>
+					<! Tähän päättyy dropdown-menu>
+					
+					
+						<! Tästä alkaa kuvagallerian osuus divin kera>
+						<div id="pohjadivkuvagalleria">
+						<div style="text-align:center">
+						<h2>Tässä muutama kätevä treeniliike</h2>
+						<p> Klikkaa kuvaa, jonka jälkeen se suurentuu sivun alaosaan
+						ohjeiden kera.</p>
+						</div>
+
+
+						<div class="row">
+						<div class="column">
+						<img src="kuvat/askelkyykky.jpg" alt="
+						<br>
+						Askelkyykky
+						<br>
+						<br>
+						Seiso jalat yhdessä varpaat suoraan eteenpäin käsipaino kummassakin kädesä. 
+						Pidä olkapäät alhaalla, leuka ylhäällä ja selkä suorana. <br> <br>
+							
+						Suoritus:
+						Astu eteen oikealla jalallasi.
+						Koukista polviasi ja laske lantiosi niin alas, että vasen polvesi melkein koskettaa lattiaa.
+						Työnnä oikealla jalalla ja nosta itsesi aloitusasentoon.
+						Toista, kunnes olet tehnyt suunnitellun määrän toistoja oikealle jalalle; tee sitten sama vasemmalla." style="width:60%" onclick="kuvagalleria(this);">
+						</div>
+						  
+						  
+						<div class="column">
+						<img src="kuvat/dippi.jpg" alt="
+						<br>
+						Dippi penkillä
+						<br>
+						<br>
+						Seiso selin vakaan penkin tai tuolin vieressä. Koukista jalkojasi ja aseta kätesi penkin etureunaa vasten. 
+						Siirrä jalkojasi eteenpäin niin, että suurin osa painostasi on käsiesi varassa. <br> <br>
+							
+						Suoritus:
+						Pidä kyynärpääsi kiinni kyljissäsi, koukista käsiäsi ja laske hitaasti vartaloasi, kunnes olkavartesi ovat vaakatasossa lattiaan nähden. 
+						Lantiosi pitäisi laskeutua suoraan alas. 
+						Oikaise kätesi ja palaa aloitusasentoon." style="width:60%" onclick="kuvagalleria(this);">
+						</div>
+						  
+						  
+						<div class="column">
+						<img src="kuvat/kyykky.jpg" alt="
+						<br>
+						Jalkakyykky levytangolla
+						<br>
+						<br>
+						Aseta tanko lapojasi vasten, älä niskaasi vasten. Pidä tangosta kiinni lujalla otteelle, 
+						joka on noin kaksi kertaa hartioidesi levyinen. 
+						Seiso haara-asennossa jalkasi hartianmitan päässä toisistaan ja käännä jalkateriäsi hieman ulos. <br> <br>
+							
+						Suoritus:
+						Koukista polviasi ja laske lantiotasi hitaasti suoraan alas kunnes reitesi ovat vaakatasossa lattiaan nähden.
+						Pidä selkäsi niin suorana kuin mahdollista, leuka ylhäällä ja olkapäät alhaalla.
+						Kun pääset ala-asentoon, ponnista kantapäistäsi ja kohota paino ylös.
+						Hengitä sisään, kun menet alas ja nouset ylös. " style="width:60%" onclick="kuvagalleria(this);">
+						</div>
+						
+						<div class="column">
+						<img src="kuvat/ojentajat.jpg" alt="
+						<br>
+						Ojentajapunnerrus taljassa
+						<br>
+						<br>
+						Ylätaljassa tartu tangosta vähän hartioitasi leveämmällä otteella kämmenet alaspäin. Aseta kyynärvartesi niin, 
+						että ne ovat vaakatasossa lattiaan nähden. Pidä jalkasi hartioiden levyisessä haara-asennossa, jotta tasapainosi säilyy. 
+						Ranteidesi pitäisi olla luonnollisessa asennossa (ei taipuneina eteen- eikä taaksepäin) koko harjoituksen ajan. Jännitä vatsalihaksesi, 
+						jotta ylävartalosi pysyisi vakaana. <br> <br>
+							
+						Suoritus:
+						Paino tankoa suoraan alas jalkojasi kohti kaarevalla liikkeellä, kunnes käsivartesi ja kyynärpääsi ovat ojennettuina.
+						Pidä olkavartesi lähellä vartaloasi ja jännitä ojentajia ala-asennossa laskien yhteen.
+						Anna painon sitten hitaasti palata takaisin aloitusasentoon ja toista liike." style="width:60%" onclick="kuvagalleria(this);">
+						</div>
+						</div>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<div class="row">
+						<div class="column">
+						<img src="kuvat/maastavetokasipainoilla.jpg" alt="
+						<br>
+						Maastaveto suorin jaloin käsipainoilla
+						<br>
+						<br>
+						Seiso suorassa jalat hartianmitan päässä toisistaan, käsipaino kummassakin kädessä niin, 
+						että kämmenesi ovat jalkojasi kohti. Tämä on hyvä harjoitus takareisille ja vahvistaa myös alaselkää. <br> <br>
+							
+						Suoritus:
+						Taivuta ylävartaloasi eteenpäin ja laske painot hitaasti eteesi, kunnes ne miltein koskettavat lattia. Pidä selkäsi suorana koko harjoituksen ajan.
+						Jännitä takareisiäsi ja nosta ylävartalosi sekä painot takaisin aloitusasentoon." style="width:60%" onclick="kuvagalleria(this);">
+						</div>
+						  
+						<div class="column">
+						<img src="kuvat/penkkipunnerruskasipainoilla.jpg" alt="
+						<br>
+						Penkkipunnerrus käsipainoilla
+						<br>
+						<br>
+						Makaa selälläsi penkillä käsipaino kummassakin kädessä. 
+						Vie painot vähän olkapäidesi yläpuolelle, kämmenet jalkojasi kohti ja kyynärpäät ulos päin osoittaen. <br> <br>
+							
+						Suoritus:
+						Nosta painot suoraan ylös kunnes kätesi lukkiutuvat suoraan solisluiden yläpuolella (ei kasvojesi eikä vatsasi päällä).
+						Laske käsipainot hitaasti aloitusasentoon. Tunne samalla venytys rintalihaksissasi, kun kyynärpääsi laskeutuvat penkin tason alapuolelle. " style="width:60%" onclick="kuvagalleria(this);">
+						</div>
+						  
+						<div class="column">
+						<img src="kuvat/pohkeetistuen.jpg" alt="
+						<br>
+						Pohjeliike laitteessa istuen
+						<br>
+						<br>
+						Asetu pohjelaitteeseen päkiät aslustan päällä ja tyynyt etureisiäsi vasten.
+						Pidä ylävartalosi paikallaan harjoituksen ajan ja keskity pohkeisiin. <br> <br>
+
+						Suoritus:
+						Laske hitaasti kantapääsi alas ja anna pohkeiden venyä niin kauan kuin mahdollista.
+						Laske yhteen ja nosta paino sitten niin ylös kuin mahdollista. Jännitä lujaa ja laske taas yhteen.
+						Laske sitten painot hitaasti alas." style="width:60%" onclick="kuvagalleria(this);">
+						</div>
+						  
+						<div class="column">
+						<img src="kuvat/ranskalainenpunnerrus.jpg" alt="
+						<br>
+						Ranskalainen punnerrus
+						<br>
+						<br>
+						Asetu tasaiselle penkille selin makuulle ja ota kapea ote mutkatangosta. 
+						Ojenna kätesi suoraksi ja katso, että tanko on silmiesi tasolla. Katso myös, että ranteesi ovat luonnollisessa asennossa koko harjoituksen ajan. 
+						Pyri pitämään kyynärpäät samassa asennossa koko harjoituksen ajan jotta saat keskitettyä liikkeen ojentajiin. <br> <br>
+							
+						Suoritus:
+						Laske tankoa kohti otsaasi taivuttamalla kyynärvarsiasi ja pidä olkapääsi paikallaan koko liikkeen ajan.
+						Suorita lasku rauhallisesti siten, että lasket tangon melkein otsaasi kiinni.
+						Pysäyttämättä liikettä, aloita nostamaan tankoa ylös samaa liikerataa kuin laskiessasi ja toista liike." style="width:60%" onclick="kuvagalleria(this);">
+						</div>
+						</div>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						
+						<div class="row">
+						<div class="column">
+						<img src="kuvat/vatsarutistus.jpg" alt="
+						<br>
+						Vatsarutistus
+						<br>
+						<br>
+						Makaa selälläsi, laita kätesi pääsi sivuille ja polvet 
+						kiinni toisiinsa sekä aseta jalkateräsi n. 30 senttimetrin päähän lantiostasi. <br> <br>
+							
+						Suoritus:
+						Aloita painamalla alaselkääsi lattiaa vasten kuin yrittäisit tehdä lattiaan kolon.
+						Ala vasta sen jälkeen rullata hartioitasi ylös ja pidä samalla polvet ja lantiot paikallaan. Paina edelleen alaselkääsi lattiaan niin lujaa kuin voit.
+						Pysy samassa asennossa ja jännitä vatsalihaksiasi mahdollisimman lujaa sekunnin ajan.
+						Laske hartiasi hitaasti takaisin alas, äläkä lakkaa painamasta alaselkääsi lattiaa vasten." style="width:60%" onclick="kuvagalleria(this);">
+						</div>
+
+						<div class="column">
+						<img src="kuvat/vipunostot.jpg" alt="
+						<br>
+						Vipunostot sivuille
+						<br>
+						<br>
+						Seiso suorassa, jalat hartioiden leveydellä ja käsivarret sivuillasi. Pitele käsipainoa kummassakin kädessä 
+						kämmenet vartaloa kohti käännettyinä. On tärkeää pitää kämmenet alaspäin käännettyinä, kun nostat painot. <br> <br>
+							
+						Suoritus:
+						Pidä kädet suorina ja nosta painot sivuille ja ylös, kunnes ne ovat noin leukasi korkeudella ja pidä niitä siinä laskien yhteen.
+						Laske painot yläasennosta hitaasti takaisin sivuillesi - muista, että harjoituksen tässä vaiheessa lihakset työskentelevät lujasti." style="width:60%" onclick="kuvagalleria(this);">
+						</div>
+
+						<div class="column">
+						<img src="kuvat/ylatalja.jpg" alt="
+						<br>
+						Ylätaljaveto leveällä otteella eteen
+						<br>
+						<br>
+						Istu ylätaljalaitteessa ja aseta polvityynyt niin, että reitesi mahtuvat juuri niiden alle. 
+						Tartu sitten tukevalla otteella tangosta - käsiesi pitäisi olla miltei kahden hartianmitan päässä toisistaan. <br> <br>
+							
+						Suoritus:
+						Vedä tanko alas rintasi yläpuolelle. Keskity pitämään kyynärpääsi suoraan tangon alapuolella.
+						Koukista vähän selkääsi ja pidä tankoa siinä asennossa kun lasket yhteen.
+						Päästä tanko hitaasti ylös aloitusasentoon." style="width:60%" onclick="kuvagalleria(this);">
+						</div>
+
+						<div class="column">
+						<img src="kuvat/jalkaprassi.jpg" alt="
+						<br>
+						Jalkaprässi
+						<br>
+						<br>
+						Asetu jalkaprässiin jalkasi noin hartianmitan päässä toisistaan, 
+						varpaasi hieman ulospäin käännettyinä. <br> <br>
+							
+						Suoritus:
+						Laske paino hitaasti kohtaan, jossa etureitesi osuvat vatsaan samalla, kun hengität syvään sisään.
+						Työnnä paino takaisin aloitusasentoon. Huolehdi siitä, että työnnät kantapäilläsi, et varpaillasi, 
+						Älä anna polvien ojentua ylhäällä kokonaan. " style="width:60%" onclick="kuvagalleria(this);">
+						</div>
+						</div>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+
+						<div class="container">
+						<span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+						<img id="expandedImg" style="width:50%">
+						<div id="imgtext"></div>
+						</div>
+						</div>
+						<! Tähän päättyy kuvagallerian osuus divin kera>
+
+								<! Tässä copyright-merkintä>
+								<h5 style="position: relative; top: 1700px;"> © 2020 - Joni Karjalainen </h5>	
+								<! Tässä copyright-merkintä>	
+								
+								<! Tässä skripti>
+								<script src="scripts/script.js"> </script>
+								<script>kuvagalleria</script>
+								<script>myFunction</script>
+								<! Tässä skripti>
+								
+										
+</meta>											
+</body>
+</html>
